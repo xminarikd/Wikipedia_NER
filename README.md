@@ -42,6 +42,9 @@ Text obsahuje všetok obsah článku vrátane Infoboxov.
 
 Po extrahovaní všetkých dôležitých informácií je možné určiť kategóriu tohto článku a uložiť túto skutočnosť ako tuple názvu stránky a kategórie.
 
+Druhov časťou projektu by bolo vytvorenie indexovania nad vytvorenými dvojicami a umožnenie vyhľadávania nad vytvorenými dátami. 
+Tento index by sa ukladal na názov stránky (title) wikipédie, tak aby bolo rýchlo vyhľadatelná kategória na základe wiki stránky.
+ 
 
 ## Implementácia projektu
 
