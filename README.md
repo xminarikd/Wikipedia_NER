@@ -50,19 +50,47 @@ Tento index by sa ukladal na názov stránky (title) wikipédie, tak aby bolo r�
 
 Na implementácia bude prebiehať v jazyku Python.
 
+## Spustenie súboru
+
+Projekt na nachádza v notebooku v adresári /src.
+Na jeho spusteniu sa vyžadujú súbory(wikipedia dump), avšak v adresári data sa nachádza menší sample dát, ktorý je možné zvoliť na testovanie systému.
+
+```diff
+- POZOR: Nespúštať notebook ako celok. 
+- POZOR: Notebook obsahuje časť na stiahnutie wikipedia dump (15 GB)
+
+```
 
 ### Ukážka infobox
 
 ```
-{{Infobox Osobnosť
-| Meno = Alan Turing 
-| Rodné meno = 
-| Portrét = Alan Turing Aged 16.jpg 
-| Veľkosť portrétu = 
-| Popis = britský matematik, logik, kryptograf a vojnový hrdina 
-| Dátum narodenia = [[23. jún]] [[1912]] 
-| Miesto narodenia = [[Londýn]], [[Spojené kráľovstvo]] 
-| Dátum úmrtia = {{duv|1954|6|7|1912|6|23}} 
-| Miesto úmrtia = [[Wilmslow]], [[Spojené kráľovstvo]]
+{{Infobox tennis biography
+|name= Karol Kučera
+|country= {{SVK}}
+|residence= [[Monte Carlo]], [[Monaco]]
+|birth_date= {{Birth date and age
+|df=y|1974|3|4}}
+|birth_place= [[Bratislava]], [[Czechoslovakia]]
+|height= {{height|m=1.87}}\n
+|turnedpro= 1992
+|retired= 2005
+|coach= [[Miloslav Mečíř]] (1997-2001) [[Marian Vajda]] (2001-2005)\n
+|plays= Right-handed (two-handed backhand)
+|careerprizemoney= [[US$|$]]5,061,125
+|singlesrecord= 293–244
+|singlestitles= 6
 }}
+
+[[Category:1974 births]]
+[[Category:Hopman Cup competitors]]
+[[Category:Living people]]
+[[Category:People from Monte Carlo]]
+[[Category:Slovak male tennis players]]
+[[Category:Slovak expatriates in Monaco]]
+[[Category:Sportspeople from Bratislava]]
+[[Category:Olympic tennis players of Slovakia]]
+[[Category:Tennis players at the 1996 Summer Olympics]]
+[[Category:Tennis players at the 2000 Summer Olympics]]
+[[Category:Tennis players at the 2004 Summer Olympics]]
+[[Category:Czechoslovak male tennis players]]
 ```
